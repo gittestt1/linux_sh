@@ -1,4 +1,4 @@
-#!/usr/bin/sudo /bin/bash
+#!/bin/bash
 apt update -y &&apt upgrade -y &&
 apt install sudo wget curl axel zip fuse -y &&
 curl https://rclone.org/install.sh | bash &&
